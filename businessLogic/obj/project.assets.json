@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "BusinessLogic.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.Interfaces.dll": {}
+        }
+      },
+      "DataAccess.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.Interfaces.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogic.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic.Interfaces/BusinessLogic.Interfaces.csproj",
+      "msbuildProject": "../BusinessLogic.Interfaces/BusinessLogic.Interfaces.csproj"
+    },
+    "DataAccess.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess.Interfaces/DataAccess.Interfaces.csproj",
+      "msbuildProject": "../DataAccess.Interfaces/DataAccess.Interfaces.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "BusinessLogic.Interfaces >= 1.0.0",
+      "DataAccess.Interfaces >= 1.0.0",
+      "Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pablo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\businessLogic\\BusinessLogic.csproj",
+      "projectName": "BusinessLogic",
+      "projectPath": "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\businessLogic\\BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\businessLogic\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\BusinessLogic.Interfaces\\BusinessLogic.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\BusinessLogic.Interfaces\\BusinessLogic.Interfaces.csproj"
+            },
+            "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\DataAccess.Interfaces\\DataAccess.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\DataAccess.Interfaces\\DataAccess.Interfaces.csproj"
+            },
+            "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\pablo\\source\\repos\\dip_expcetions_ado\\Domain\\Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

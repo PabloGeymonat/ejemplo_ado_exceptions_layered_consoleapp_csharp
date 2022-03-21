@@ -1,0 +1,12 @@
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.csproj.AssemblyReference.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.AssemblyInfo.cs
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\bin\Debug\netstandard2.1\DataAccess.Interfaces.deps.json
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\bin\Debug\netstandard2.1\DataAccess.Interfaces.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\bin\Debug\netstandard2.1\DataAccess.Interfaces.pdb
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.csproj.CopyComplete
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess.Interfaces\obj\Debug\netstandard2.1\DataAccess.Interfaces.pdb

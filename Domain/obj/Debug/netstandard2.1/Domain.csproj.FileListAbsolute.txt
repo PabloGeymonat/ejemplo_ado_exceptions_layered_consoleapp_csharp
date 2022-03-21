@@ -1,0 +1,9 @@
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\obj\Debug\netstandard2.1\Domain.csproj.AssemblyReference.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\obj\Debug\netstandard2.1\Domain.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\Domain\obj\Debug\netstandard2.1\Domain.pdb

@@ -1,0 +1,14 @@
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.Interfaces.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.Interfaces.pdb
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\pablo\source\repos\dip_expcetions_ado\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
