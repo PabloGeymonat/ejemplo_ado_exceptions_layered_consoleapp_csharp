@@ -13,32 +13,34 @@ namespace DataAccess
 		
 
 		private IDbConnection cn;
+
+
 		public RepositoryCategoria(IDbConnection cn) 
 		{
 			this.cn = cn;	
 		}
 
-
 		public Categoria Add(Categoria unaCategoria)
 		{
-			ThrowExceptionSiConexionNula();
+			ThrowExceptionSiConexionNula();			
 			ThrowExceptionSiCategoriaNula(unaCategoria);
 
 			//Preparar el comando
 			IDbCommand cmd = new SqlCommand();
+			// en este casoo se inserta y se consulta sobre el socpe_identity() para obtener el ultimo id
+			// generado en la consultaa insert de manera dee devvolver la categoria inicial con el id
 			cmd.CommandText = @"INSERT INTO Categoria (Nombre,Descripcion) 
-									VALUES (@nom, @desc)";
+									VALUES (@nom, @desc); SELECT CAST(scope_identity() AS int)";
 			//Agregarle los parámetros al comando
 			cmd.Parameters.Add(new SqlParameter("@nom", unaCategoria.Nombre));
 			cmd.Parameters.Add(new SqlParameter("@desc", unaCategoria.Descripcion));
 
 			cmd.Connection = this.cn as SqlConnection;
 			try
-			{
-				int filasAfectadas = cmd.ExecuteNonQuery();
-				if (filasAfectadas == 1)
-					return unaCategoria;
-
+			{				
+				int newID = (int)cmd.ExecuteScalar();
+				unaCategoria.Id = newID;
+				return unaCategoria;
 			}
 			catch (Exception e)
 			{
@@ -47,6 +49,7 @@ namespace DataAccess
 							
 			return null;
 		}
+		
 
 		private void ThrowExceptionSiConexionNula() 
 		{
@@ -100,6 +103,7 @@ namespace DataAccess
 		public Categoria FindById(int id)
 		{
 			ThrowExceptionSiConexionNula();
+
 			Categoria categoria = null;
 			SqlCommand cmd = new SqlCommand();
 			cmd.CommandText = "SELECT * FROM Categoria WHERE Id = @id";
@@ -189,6 +193,8 @@ namespace DataAccess
 
 		public bool Remove(int CodigoCategoria)
 		{
+			ThrowExceptionSiConexionNula();
+
 			IDbCommand cmd = new SqlCommand();
 			cmd.CommandText = @"DELETE FROM Categoria WHERE Id=@id";
 			cmd.Parameters.Add(new SqlParameter("@id", CodigoCategoria));
@@ -226,6 +232,7 @@ namespace DataAccess
 		{
 			ThrowExceptionSiConexionNula();
 			ThrowExceptionSiCategoriaNula(unaCategoria);
+
 			SqlCommand cmd = new SqlCommand();
 			cmd.CommandText = "UPDATE Categoria SET nombre=@nombre, descripcion=@desc WHERE id=@id";
 			cmd.Connection = this.cn as SqlConnection;

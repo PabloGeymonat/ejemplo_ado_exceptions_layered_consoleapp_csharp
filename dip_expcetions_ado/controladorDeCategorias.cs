@@ -40,7 +40,10 @@ namespace presentacion
                 Nombre = "La Categoria",
                 Descripcion = "Descripcion de la categoria"
             };
-            this._logicCategoria.CrearCategoria(categoria);
+            Categoria cat = this._logicCategoria.CrearCategoria(categoria);
+
+            Console.WriteLine("La nueva cat es: " + cat.ToString());
+
         }
 
 

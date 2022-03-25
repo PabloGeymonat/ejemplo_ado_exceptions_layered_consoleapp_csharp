@@ -67,7 +67,7 @@ namespace dip_expcetions_ado
                                         \/
             |===========================================================|
             |                                                           |
-            |                     DataAccess.Interfaces                |
+            |                     DataAccess.Interfaces                 |
             |                                                           |
             |===========================================================|                            |
                                         /\
@@ -82,6 +82,7 @@ namespace dip_expcetions_ado
             Aplica: 
             *   Layered Architecture (nota las fechas indican la dependencias entre capas, 
             *       una capa concreta solo depende de abstracciones(interfaces))
+            *       TODAS LAS CAPAS DEPENDEN DE Domain
             *   Inversion de dependencias (DIP)
             *   Inyeccion de dependencias (DI)
             *   Repository(entre capas DataAccess.Interfaces y DataAccess)
